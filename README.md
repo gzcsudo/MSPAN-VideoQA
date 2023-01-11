@@ -26,7 +26,7 @@ For different datasets, you can choose 5 options of `--question_type`: `none`, `
 1. Download [Glove 300D](http://nlp.stanford.edu/data/glove.840B.300d.zip) to `preprocess/pretrained/` and process it into a pickle file:
 
    ```bash
-   python3 preprocess/txt2pickle.py
+   python preprocess/txt2pickle.py
    ```
 
 2. To extract question features.
@@ -34,15 +34,15 @@ For different datasets, you can choose 5 options of `--question_type`: `none`, `
    For TGIF-QA dataset:
 
    ```bash
-   python3 preprocess/question_features.py 
+   python preprocess/question_features.py 
            --dataset tgif-qa \
            --question_type action \
            --mode total
-   python3 preprocess/question_features.py \
+   python preprocess/question_features.py \
            --dataset tgif-qa \
            --question_type action \
            --mode train
-   python3 preprocess/question_features.py \
+   python preprocess/question_features.py \
            --dataset tgif-qa \
            --question_type action \
            --mode test
@@ -51,25 +51,25 @@ For different datasets, you can choose 5 options of `--question_type`: `none`, `
    For MSVD-QA/MSRVTT-QA dataset:
    
    ```bash
-   python3 preprocess/question_features.py \
+   python preprocess/question_features.py \
            --dataset msvd-qa \
            --question_type none \
            --mode total
-   python3 preprocess/question_features.py \
+   python preprocess/question_features.py \
            --dataset msvd-qa \
            --question_type none \
            --mode train
-   python3 preprocess/question_features.py \
+   python preprocess/question_features.py \
            --dataset msvd-qa \
            --question_type none \
            --mode val
-   python3 preprocess/question_features.py \
+   python preprocess/question_features.py \
            --dataset msvd-qa \
            --question_type none \
            --mode test
    ```
 
-##### Extracting visual features
+### Extracting visual features
 
  1. Download pre-trained [3D-ResNet152](https://drive.google.com/file/d/1U7p9iIgkZviuKvpObzN6gx5OiflmAKaT/view?usp=sharing) to `preprocess/pretrained/` .
 
@@ -82,7 +82,7 @@ For different datasets, you can choose 5 options of `--question_type`: `none`, `
 2. To extract appearance features:
 
    ```bash
-   python3 preprocess/appearance_features.py \
+   python preprocess/appearance_features.py \
            --gpu_id 0 \
            --dataset tgif-qa \
            --question_type action \
@@ -93,7 +93,7 @@ For different datasets, you can choose 5 options of `--question_type`: `none`, `
 3. To extract motion features:
 
    ```bash
-   python3 preprocess/motion_features.py \
+   python preprocess/motion_features.py \
            --gpu_id 0 \
            --dataset tgif-qa \
            --question_type action \
@@ -113,7 +113,7 @@ For different datasets and different tasks, there are 6 different options:  `act
 You can choose the suitable `--dataset` and `--question_type` to start training:
 
 ```bash
-python3 train.py \
+python train.py \
         --dataset tgif-qa \
         --question_type action \
         --T 2 \
