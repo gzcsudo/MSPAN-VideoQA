@@ -17,9 +17,13 @@ Zhicheng Guo, Jiaxuan Zhao, Licheng Jiao, Xu Liu, Lingling Li
 
 ## Preprocessing features
 
-For above three datasets of VideoQA, you can choose 3 options of `--dataset`: `tgif-qa`, `msvd-qa` and `msrvtt-qa`.
+For above three datasets of VideoQA, you can choose 3 options of `--dataset`: 
 
-For different datasets, you can choose 5 options of `--question_type`: `none`, `action`, `count`, `frameqa` and `transition`.
+`tgif-qa`, `msvd-qa` and `msrvtt-qa`.
+
+For different datasets, you can choose 5 options of `--question_type`: 
+
+`none`, `action`, `count`, `frameqa` and `transition`.
 
 ### Extracting question features
 
