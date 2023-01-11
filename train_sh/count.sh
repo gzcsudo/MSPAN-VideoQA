@@ -1,0 +1,14 @@
+python3 train.py \
+        --dataset tgif-qa \
+        --question_type count \
+        --T 2 \
+        --K 3 \
+        --num_scale 8 \
+        --num_frames 16 \
+        --gpu_id 1 \
+        --max_epochs 20 \
+        --batch_size 64 \
+        --dropout 0.2 \
+        --model_id 0 \
+        --use_test \
+        --use_train
