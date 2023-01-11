@@ -108,7 +108,9 @@ For all the above process of extracting features, you can directly run the follo
 sh pre_sh/action.sh
 ```
 
-For different datasets and different tasks, there are 6 different options:  `action.sh`,`count.sh`, `frameqa.sh`, `transition.sh`, `msvd.sh` and `msrvtt.sh`.
+For different datasets and different tasks, there are 6 different options:  
+
+`action.sh`,`count.sh`, `frameqa.sh`, `transition.sh`, `msvd.sh` and `msrvtt.sh`.
 
 #### Training
 
