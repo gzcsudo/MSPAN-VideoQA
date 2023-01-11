@@ -5,9 +5,9 @@ python train.py \
         --K 3 \
         --num_scale 8 \
         --num_frames 16 \
-        --gpu_id 1 \
+        --gpu_id 0 \
         --max_epochs 20 \
         --batch_size 64 \
         --dropout 0.2 \
-        --model_id 19 \
+        --model_id 0 \
         --use_test
