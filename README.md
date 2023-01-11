@@ -102,17 +102,7 @@ For different datasets, you can choose 5 options of `--question_type`:
            --num_frames 16
    ```
 
-For all the above process of extracting features, you can directly run the following command:
-
-```bash
-sh pre_sh/action.sh
-```
-
-For different datasets and different tasks, there are 6 different options:  
-
-`action.sh`,`count.sh`, `frameqa.sh`, `transition.sh`, `msvd.sh` and `msrvtt.sh`.
-
-#### Training
+## Training
 
 You can choose the suitable `--dataset` and `--question_type` to start training:
 
