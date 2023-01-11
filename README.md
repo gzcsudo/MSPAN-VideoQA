@@ -21,7 +21,7 @@ For above three datasets of VideoQA, you can choose 3 options of `--dataset`: `t
 
 For different datasets, you can choose 5 options of `--question_type`: `none`, `action`, `count`, `frameqa` and `transition`.
 
-##### Extracting question features
+### Extracting question features
 
 1. Download [Glove 300D](http://nlp.stanford.edu/data/glove.840B.300d.zip) to `preprocess/pretrained/` and process it into a pickle file:
 
