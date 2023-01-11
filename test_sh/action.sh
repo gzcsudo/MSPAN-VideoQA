@@ -9,5 +9,5 @@ python train.py \
         --max_epochs 30 \
         --batch_size 64 \
         --dropout 0.1 \
-        --model_id 2 \
+        --model_id 0 \
         --use_test
