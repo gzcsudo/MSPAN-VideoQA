@@ -150,20 +150,11 @@ You can see the evaluating commands for all datasets and tasks under the `test_s
 ## Citation
 
 ```
-@inproceedings{guo-etal-2021-multi,
-    title = "Multi-Scale Progressive Attention Network for Video Question Answering",
-    author = "Guo, Zhicheng  and
-      Zhao, Jiaxuan  and
-      Jiao, Licheng  and
-      Liu, Xu  and
-      Li, Lingling",
-    booktitle = "Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)",
-    month = aug,
-    year = "2021",
-    address = "Online",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2021.acl-short.122",
-    doi = "10.18653/v1/2021.acl-short.122",
-    pages = "973--978"
+@inproceedings{guo2021multi,
+  title={Multi-scale progressive attention network for video question answering},
+  author={Guo, Zhicheng and Zhao, Jiaxuan and Jiao, Licheng and Liu, Xu and Li, Lingling},
+  booktitle={Proceedings of the 59th Annual Meeting of the Association for Computational Linguistics and the 11th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)},
+  pages={973--978},
+  year={2021}
 }
 ```
