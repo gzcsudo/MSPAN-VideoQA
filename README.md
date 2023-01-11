@@ -5,8 +5,6 @@
 
 Zhicheng Guo, Jiaxuan Zhao, Licheng Jiao, Xu Liu, Lingling Li
 
-![](.\figures\figure2.png)
-
 #### Requirements
 
 Python = 3.6
