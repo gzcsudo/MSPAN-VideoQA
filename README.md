@@ -15,9 +15,7 @@ Zhicheng Guo, Jiaxuan Zhao, Licheng Jiao, Xu Liu, Lingling Li
 
 2. Download [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA, MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets and edit absolute paths in `preprocess/question_features.py` , `preprocess/appearance_features.py` and `preprocess/motion_features.py` upon where you locate your data.
 
-#### Preprocessing features
-
-You can download our pre-extracted features from  [here](https://pan.baidu.com/s/1Mq9hoFEy_FdmcQslHeoSEA)(Extraction code: bft3) .
+## Preprocessing features
 
 For above three datasets of VideoQA, you can choose 3 options of `--dataset`: `tgif-qa`, `msvd-qa` and `msrvtt-qa`.
 
