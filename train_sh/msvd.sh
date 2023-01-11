@@ -1,4 +1,4 @@
-python3 train.py \
+python train.py \
         --dataset msvd-qa \
         --question_type none \
         --T 2 \

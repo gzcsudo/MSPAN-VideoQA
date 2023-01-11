@@ -1,4 +1,4 @@
-python3 train.py \
+python train.py \
         --dataset tgif-qa \
         --question_type action \
         --T 2 \
