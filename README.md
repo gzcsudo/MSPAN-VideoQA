@@ -79,9 +79,7 @@ For different datasets, you can choose 5 options of `--question_type`:
 
     You can learn more about this model in the following paper:
 
-    [Hirokatsu Kataoka, Tenga Wakamiya, Kensho Hara, and Yutaka Satoh,
-    "Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs",
-    arXiv preprint, 2020.](https://arxiv.org/abs/2004.04968)
+    ["Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs", arXiv preprint, 2020.](https://arxiv.org/abs/2004.04968)
 
 2. To extract appearance features:
 
