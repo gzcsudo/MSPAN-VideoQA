@@ -81,7 +81,7 @@ For different datasets, you can choose 5 options of `--question_type`:
 
     [Hirokatsu Kataoka, Tenga Wakamiya, Kensho Hara, and Yutaka Satoh,
     "Would Mega-scale Datasets Further Enhance Spatiotemporal 3D CNNs",
-    arXiv preprint, arXiv:2004.04968, 2020.](https://arxiv.org/abs/2004.04968)
+    arXiv preprint, 2020.](https://arxiv.org/abs/2004.04968)
 
 2. To extract appearance features:
 
