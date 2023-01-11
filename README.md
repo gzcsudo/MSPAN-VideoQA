@@ -5,7 +5,7 @@
 
 Zhicheng Guo, Jiaxuan Zhao, Licheng Jiao, Xu Liu, Lingling Li
 
-#### Requirements
+### Requirements
 
 Python = 3.6
 
