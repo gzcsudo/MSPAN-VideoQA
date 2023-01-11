@@ -1,6 +1,8 @@
 # MSPAN-VideoQA
 
-[Multi-Scale Progressive Attention Network for Video Question Answering](https://arxiv.org/abs/2102.06183), [ACL 2021](http://cvpr2021.thecvf.com/).
+[Multi-Scale Progressive Attention Network for Video Question Answering](https://aclanthology.org/2021.acl-short.122/), 
+[ACL 2021](https://2021.aclweb.org/).
+Zhicheng Guo, Jiaxuan Zhao, Licheng Jiao, Xu Liu, Lingling Li
 
 ![](.\figures\figure2.png)
 
