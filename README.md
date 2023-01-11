@@ -133,6 +133,8 @@ You can see the training commands for all datasets and tasks under the `train_sh
 
 ## Evaluation
 
+You can download our pre-trained models from [here](https://pan.baidu.com/s/1Mq9hoFEy_FdmcQslHeoSEA).
+
 To evaluate the trained model, run the following command:
 
 ```bash
