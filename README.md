@@ -1,9 +1,6 @@
 # MSPAN-VideoQA
-Multi-Scale Progressive Attention Network for Video Question Answering
 
-
-
-## Multi-Scale Progressive Attention Network for             Video Question Answering  (MSPAN-VideoQA)
+[Multi-Scale Progressive Attention Network for Video Question Answering](https://arxiv.org/abs/2102.06183), [ACL 2021](http://cvpr2021.thecvf.com/).
 
 ![](.\figures\figure2.png)
 
