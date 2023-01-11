@@ -157,3 +157,15 @@ sh test_sh/action.sh
 ```
 
 You can see the evaluating commands for all datasets and tasks under the `test_sh` folder.
+
+## Citation
+
+If you find this code useful for your research, please consider citing:
+```
+@inproceedings{lei2021less,
+  title={Less is More: ClipBERT for Video-and-Language Learningvia Sparse Sampling},
+  author={Lei, Jie and Li, Linjie and Zhou, Luowei and Gan, Zhe and Berg, Tamara L. and Bansal, Mohit and Liu, Jingjing},
+  booktitle={CVPR},
+  year={2021}
+}
+```
