@@ -11,7 +11,7 @@ Python = 3.6
 
 PyTorch = 1.2
 
-#### Setups
+## Setups
 
 1. Install the python dependency packages:
 
