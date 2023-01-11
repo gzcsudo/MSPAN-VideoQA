@@ -2,9 +2,9 @@
 
 [Multi-Scale Progressive Attention Network for Video Question Answering](https://aclanthology.org/2021.acl-short.122/), 
 [ACL 2021](https://2021.aclweb.org/).
-<b>
+
 Zhicheng Guo, Jiaxuan Zhao, Licheng Jiao, Xu Liu, Lingling Li
-<\b>
+
 ![](.\figures\figure2.png)
 
 #### Requirements
