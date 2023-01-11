@@ -5,21 +5,13 @@
 
 Zhicheng Guo, Jiaxuan Zhao, Licheng Jiao, Xu Liu, Lingling Li
 
-## Requirements
-
-Python = 3.6
-
-PyTorch = 1.2
-
 ## Setups
 
 1. Install the python dependency packages:
 
    ```bash
-   pip3 install -r requirements.txt
+   pip install -r requirements.txt
    ```
-
-   If you can't run `nltk.download('punkt')` to download `punkt`, you could download `punkt.zip` from [here](https://pan.baidu.com/s/1Mq9hoFEy_FdmcQslHeoSEA)(Extraction code: bft3).
 
 2. Download [TGIF-QA](https://github.com/YunseokJANG/tgif-qa), [MSVD-QA, MSRVTT-QA](https://github.com/xudejing/video-question-answering) datasets and edit absolute paths in `preprocess/question_features.py` , `preprocess/appearance_features.py` and `preprocess/motion_features.py` upon where you locate your data.
 
